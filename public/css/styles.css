@@ -1,0 +1,30 @@
+body {
+    font-family : "arial";
+    max-width: 650px;
+    display : flex;
+    flex-direction:column;
+    margin:auto;
+    height:100vh;
+    padding : 16px;
+}
+
+header a{
+    text-decoration: none;
+    color :rgb(138, 129, 129);
+    opacity : 0.8;
+
+}
+
+header a:hover {
+    opacity : 1;
+}
+
+footer {
+    color : rgb(151, 144, 144);
+
+}
+.main {
+    font-size: 25px;
+    flex-grow: 1;
+}
+
