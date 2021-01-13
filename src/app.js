@@ -5,7 +5,7 @@ const get_weather = require("./utils/WeatherStatus");
 
 // console.log(__dirname);
 // console.log(__filename);
-
+const port = process.env.PORT || 3000;
 const app = express();
 // Path storing values
 const viewsDir = path.join(__dirname , '../templates/views');
@@ -67,4 +67,4 @@ app.get('*' , (req , res ) => {
         name : "Shivam"
     })
 })
-app.listen(3000);
+app.listen(port);
